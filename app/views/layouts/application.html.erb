@@ -9,19 +9,44 @@
 <body>
 	<header>
 		<div class= "col-xs-3">
-			Logo
+			<div class="circle">
+		        <br />
+		        Anime
+		        <br />
+		        Love
+		        <br />
+		        Forever
+	      </div>
 		</div>
-		<div class = "col-xs-4">
+
+		<div class = "col-xs-4 slogan">
 			Providing Anime Quotes Since the 90's
 		</div>
-		<div class ="col-xs-5">
+		<div class ="col-xs-5 links">
 			<%= link_to 'Contribute', '#' %>
 			<%= link_to 'About', '#' %>
 		</div>
 
 	</header>
+	<hr />
+	<br class="clear" />
+	<div class= "container">
 
-<%= yield %>
+		<%= yield %>
+	</div>
+
+	<div class= "footer">
+		<div class = "container">
+			<div class = "col-xs-6 footer-blurb">
+				<%= link_to "This isn't enough, I need more", "#", :class => 'next-quote' %>
+			</div>
+			<div class = "col-xs-6">
+				Made in the ATL
+			</div>
+			<p class = "text-muted"> Place sticky footer content here. </p>
+		</div>
+	</div>
+
 
 </body>
 </html>
