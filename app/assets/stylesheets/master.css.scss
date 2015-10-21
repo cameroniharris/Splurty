@@ -60,3 +60,25 @@ h2 {
 	
 	text-decoration:none;
 }
+.slogan{
+    
+    font-family: 'Indie Flower',cursive;
+}
+@media(max-width: 750px){
+    
+    .footer-blurb {
+        text-align:left;
+
+    }
+}
+.modal{
+    font-family: 'Indie Flower',cursive;
+
+}
+h2 span {
+  color: #dddddd;
+  font-family: 'Indie Flower',cursive;
+}
+::selection {
+  background-color: #f84342;
+}
