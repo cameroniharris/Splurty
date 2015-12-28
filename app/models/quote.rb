@@ -6,7 +6,7 @@ class Quote < ActiveRecord::Base
 		
 		abbr= self.author.split(" ").collect do |sub_string|
 			sub_string [0]
-	end
+	    end
 	abbr.join + '#' + self.id.to_s
-  end
+    end
 end
